@@ -23,7 +23,8 @@ import { FaDiscord, FaGithub } from 'react-icons/fa'; // Import the Discord icon
 import {TbArrowsJoin } from 'react-icons/tb'; // Import the Discord icon
 
 export default function Home({ posts }) {
-  const animateRef = useRef<HTMLElement | null>(null); // Explicitly specify the type
+  useRef(null);
+  const animateRef = useRef<HTMLElement>(null); // Explicitly specify the type
 
   const [isVisible, setIsVisible] = useState(false);
 
@@ -170,12 +171,12 @@ export default function Home({ posts }) {
         </div>
       </div>
 
-      <div className={`container py-12${animateClass}`}>
-      <h1 className={`text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-8 md:text-4xl md:leading-8 pb-8 pt-12  ${animateClass}`}style={{ textAlign: 'center' }}>
+      <div className={`container py-12`}>
+      <h1 className={"text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-8 md:text-4xl md:leading-8 pb-8 pt-12"} style={{ textAlign: 'center' }}>
   Check out our sponsors!
 </h1>
 
-        <div className={`-m-4 flex flex-wrap ${animateClass}`} >
+        <div className={`-m-4 flex flex-wrap `} >
 
           {sponsorsData.map((d) => (
             <Card
