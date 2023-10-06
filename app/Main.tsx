@@ -99,7 +99,7 @@ export default function Home({ posts }) {
         <div className="w-full md:w-1/2 pb-5 ">
 
 
-          <iframe width="100%" height="350px" src="https://www.youtube.com/embed/KcyQ0gMhYwg?si=D4NM-HIyN0KeFF2i&amp;controls=0&muted;" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  ></iframe>
+          <iframe className = "rounded-3xl"width="100%" height="350px" src="https://www.youtube.com/embed/KcyQ0gMhYwg?si=D4NM-HIyN0KeFF2i&amp;controls=0&muted;" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  ></iframe>
 
         </div>
       </div >
