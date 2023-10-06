@@ -12,7 +12,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 const VIDEO_PATH = 'https://youtu.be/0BIaDVnYp2A';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-import Video from '/static/ElephantsDream.mp4';
+
 
 
 import { createRoot } from 'react-dom/client';
@@ -98,7 +98,7 @@ export default function Home({ posts }) {
         <div className="w-full md:w-1/2 pb-5 ">
 
 
-          <iframe width="100%" height="350px" src="https://www.youtube.com/embed/KcyQ0gMhYwg?si=D4NM-HIyN0KeFF2i&amp;controls=0&muted;" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" autoPlay muted ></iframe>
+          <iframe width="100%" height="350px" src="https://www.youtube.com/embed/KcyQ0gMhYwg?si=D4NM-HIyN0KeFF2i&amp;controls=0&muted;" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  ></iframe>
 
         </div>
       </div >
@@ -170,12 +170,12 @@ export default function Home({ posts }) {
         </div>
       </div>
 
-      <div className={`container py-12${animateClass}`} ref={animateRef}>
-      <h1 className={`text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-8 md:text-4xl md:leading-8 pb-8 pt-12  ${animateClass}`} ref={animateRef} style={{ textAlign: 'center' }}>
+      <div className={`container py-12${animateClass}`}>
+      <h1 className={`text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-8 md:text-4xl md:leading-8 pb-8 pt-12  ${animateClass}`}style={{ textAlign: 'center' }}>
   Check out our sponsors!
 </h1>
 
-        <div className={`-m-4 flex flex-wrap ${animateClass}`} ref={animateRef}>
+        <div className={`-m-4 flex flex-wrap ${animateClass}`} >
 
           {sponsorsData.map((d) => (
             <Card

@@ -1,0 +1,78 @@
+{
+  "cacheItemsMap": {
+    "authors/default.mdx": {
+      "document": {
+        "name": "sdfasdf",
+        "avatar": "/static/images/avatar.png",
+        "occupation": "sadfasd",
+        "company": "asdfasdf",
+        "email": "asdfasd",
+        "twitter": "asdfasdf",
+        "linkedin": "asdfasdf",
+        "github": "asdfas",
+        "body": {
+          "raw": "\n",
+          "code": "var Component=(()=>{var m=Object.create;var r=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,p=Object.prototype.hasOwnProperty;var _=(a,t)=>()=>(t||a((t={exports:{}}).exports,t),t.exports),j=(a,t)=>{for(var n in t)r(a,n,{get:t[n],enumerable:!0})},f=(a,t,n,d)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let e of x(t))!p.call(a,e)&&e!==n&&r(a,e,{get:()=>t[e],enumerable:!(d=u(t,e))||d.enumerable});return a};var l=(a,t,n)=>(n=a!=null?m(g(a)):{},f(t||!a||!a.__esModule?r(n,\"default\",{value:a,enumerable:!0}):n,a)),M=a=>f(r({},\"__esModule\",{value:!0}),a);var i=_((C,o)=>{o.exports=_jsx_runtime});var w={};j(w,{default:()=>v,frontmatter:()=>b});var s=l(i()),b={name:\"sdfasdf\",avatar:\"/static/images/avatar.png\",occupation:\"sadfasd\",company:\"asdfasdf\",email:\"asdfasd\",twitter:\"asdfasdf\",linkedin:\"asdfasdf\",github:\"asdfas\"};function c(a){return(0,s.jsx)(s.Fragment,{})}function h(a={}){let{wrapper:t}=a.components||{};return t?(0,s.jsx)(t,Object.assign({},a,{children:(0,s.jsx)(c,a)})):c(a)}var v=h;return M(w);})();\n;return Component;"
+        },
+        "_id": "authors/default.mdx",
+        "_raw": {
+          "sourceFilePath": "authors/default.mdx",
+          "sourceFileName": "default.mdx",
+          "sourceFileDir": "authors",
+          "contentType": "mdx",
+          "flattenedPath": "authors/default"
+        },
+        "type": "Authors",
+        "readingTime": {
+          "text": "0 min read",
+          "minutes": 0,
+          "time": 0,
+          "words": 0
+        },
+        "slug": "default",
+        "path": "authors/default",
+        "filePath": "authors/default.mdx",
+        "toc": []
+      },
+      "documentHash": "1696560308727",
+      "hasWarnings": false,
+      "documentTypeName": "Authors"
+    },
+    "authors/sparrowhawk.mdx": {
+      "document": {
+        "name": "Sparrow Hawk",
+        "avatar": "/static/images/avatar.png",
+        "occupation": "Wizard of Earthsea",
+        "company": "Earthsea",
+        "twitter": "https://twitter.com/sparrowhawk",
+        "linkedin": "https://www.linkedin.com/sparrowhawk",
+        "body": {
+          "raw": "\nAt birth, Ged was given the child-name Duny by his mother. He was born on the island of Gont, as a son of a bronzesmith. His mother died before he reached the age of one. As a small boy, Ged had overheard the village witch, his maternal aunt, using various words of power to call goats. Ged later used the words without an understanding of their meanings, to surprising effect.\n\nThe witch knew that using words of power effectively without understanding them required innate power, so she endeavored to teach him what little she knew. After learning more from her, he was able to call animals to him. Particularly, he was seen in the company of wild sparrowhawks so often that his \"use name\" became Sparrowhawk.\n",
+          "code": "var Component=(()=>{var d=Object.create;var r=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,u=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),g=(e,t)=>{for(var n in t)r(e,n,{get:t[n],enumerable:!0})},i=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of l(t))!u.call(e,o)&&o!==n&&r(e,o,{get:()=>t[o],enumerable:!(s=m(t,o))||s.enumerable});return e};var b=(e,t,n)=>(n=e!=null?d(p(e)):{},i(t||!e||!e.__esModule?r(n,\"default\",{value:e,enumerable:!0}):n,e)),k=e=>i(r({},\"__esModule\",{value:!0}),e);var w=f((G,h)=>{h.exports=_jsx_runtime});var j={};g(j,{default:()=>y,frontmatter:()=>x});var a=b(w()),x={name:\"Sparrow Hawk\",avatar:\"/static/images/avatar.png\",occupation:\"Wizard of Earthsea\",company:\"Earthsea\",twitter:\"https://twitter.com/sparrowhawk\",linkedin:\"https://www.linkedin.com/sparrowhawk\"};function c(e){let t=Object.assign({p:\"p\"},e.components);return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(t.p,{children:\"At birth, Ged was given the child-name Duny by his mother. He was born on the island of Gont, as a son of a bronzesmith. His mother died before he reached the age of one. As a small boy, Ged had overheard the village witch, his maternal aunt, using various words of power to call goats. Ged later used the words without an understanding of their meanings, to surprising effect.\"}),(0,a.jsx)(t.p,{children:'The witch knew that using words of power effectively without understanding them required innate power, so she endeavored to teach him what little she knew. After learning more from her, he was able to call animals to him. Particularly, he was seen in the company of wild sparrowhawks so often that his \"use name\" became Sparrowhawk.'})]})}function v(e={}){let{wrapper:t}=e.components||{};return t?(0,a.jsx)(t,Object.assign({},e,{children:(0,a.jsx)(c,e)})):c(e)}var y=v;return k(j);})();\n;return Component;"
+        },
+        "_id": "authors/sparrowhawk.mdx",
+        "_raw": {
+          "sourceFilePath": "authors/sparrowhawk.mdx",
+          "sourceFileName": "sparrowhawk.mdx",
+          "sourceFileDir": "authors",
+          "contentType": "mdx",
+          "flattenedPath": "authors/sparrowhawk"
+        },
+        "type": "Authors",
+        "readingTime": {
+          "text": "1 min read",
+          "minutes": 0.63,
+          "time": 37800,
+          "words": 126
+        },
+        "slug": "sparrowhawk",
+        "path": "authors/sparrowhawk",
+        "filePath": "authors/sparrowhawk.mdx",
+        "toc": []
+      },
+      "documentHash": "1696560447570",
+      "hasWarnings": false,
+      "documentTypeName": "Authors"
+    }
+  }
+}
