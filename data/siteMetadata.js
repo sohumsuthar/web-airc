@@ -1,12 +1,12 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
   title: 'AIRC',
-  author: 'AI Robotics Club',
+  author: 'Sohum Suthar',
   headerTitle: 'AI Robotics Club',
   description: 'AI Robotics Club at The Ohio State University',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
+  siteUrl: 'https://web-airc.vercel.app/',
   siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
   siteLogo: '/static/images/logo.png',
   socialBanner: '/static/images/logo.png',
@@ -17,7 +17,8 @@ const siteMetadata = {
   twitter: 'https://twitter.com/Twitter',
   facebook: 'https://facebook.com',
   youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
+  linkedin: 'https://www.linkedin.com/company/osu-airc',
+  instagram: 'https://www.instagram.com/osu.airc',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
